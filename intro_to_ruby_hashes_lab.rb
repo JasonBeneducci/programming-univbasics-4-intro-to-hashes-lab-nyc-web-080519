@@ -3,8 +3,8 @@ def new_hash
 end
 
 def my_hash
-  my_hash = {
-    name => Jason
+  hash = {
+    :name => Jason
   }
 end
 
@@ -21,8 +21,8 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  my_hash_creator = {
-    :key => value
+  hash = {
+    key => value
   }
 end
 
